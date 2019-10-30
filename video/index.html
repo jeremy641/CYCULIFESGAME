@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>CYCU LIFE'S GAME</title>
+		<style type="text/css">
+			#V111{
+                position: absolute;
+				left: 170px;
+				top: 120px;
+				color:white;
+			}
+			
+			#LOGO{
+				position: absolute;
+				left: 8px;
+				top: 8px;
+			}
+			#TEX{
+				position: absolute;
+				left: 300px;
+				top: 5px;
+				color: #9999FF;
+				font-size: 40px;
+				font-family: "Lucida Sans Typewriter";
+			}
+			#XET{
+				position: absolute;
+				left: 400px;
+				top: 50px;
+				color: #9999FF;
+				font-size: 40px;
+				font-family: "Lucida Sans Typewriter";
+			}
+			li{
+				display:inline;
+			}
+			#sele {
+				position: absolute;
+				left: 850px;
+				top: 130px;
+				font-family:"微軟正黑體";
+				font-weight: 1000;
+				
+						}
+            .LIN{
+					text-decoration:none; 
+				}
+
+
+			.titl{
+				text-align: center;
+				font-size: 80px;
+			}
+			
+			.Te{
+				position: absolute;
+				left:40px;
+				top:710px;
+				color: white;
+			}
+			#MO{
+				position: absolute;
+				left:40px;
+				top:850px;
+			}
+			footer{
+				background-image: url(images/footer_bg1.png);
+			}
+			.titl {
+		-webkit-animation-duration: 3s;
+		-moz-animation-duration: 3s;
+		-webkit-animation-name: slidein;
+		-moz-animation-name: slidein;
+		}
+		@-webkit-keyframes slidein {
+		from {
+		padding-left: 100%;
+		width: 300%;
+		}
+		to {
+		padding-left: 0%;
+		width: 100%;
+		}
+		}
+		@-moz-keyframes slidein {
+		from {
+		padding-left: 100%;
+		width: 300%;
+		}
+		to {
+		padding-left: 0%;
+		width: 100%;
+		}
+		}
+			
+		#sele{
+			
+		position: absolute;
+		left: 850px;
+		top: 130px;
+		animation:TestMove 3s ; /*IE*/
+		-moz-animation:TestMove 3s ; /*FireFox*/
+		-webkit-animation:TestMove 3s ; /*Chrome, Safari*/
+		}
+		@keyframes TestMove{
+		from {left:0%;}
+		to {left:55.5%;}
+		}
+		@-moz-keyframes TestMove{
+		from {left:0%;}
+		to {left:55.5%;}
+		}
+		@-webkit-keyframes TestMove{
+		from {left:0%;}
+		to {left:55.5%;}
+		}
+
+		 #P,#L,#M,#N,#T{
+		  -webkit-animation-name: greenPulse;
+		  -webkit-animation-duration: 2s;
+		  -webkit-animation-iteration-count: infinite;　　　　　　
+		}
+
+		@-webkit-keyframes greenPulse 
+		{from { background-color: #FFFFFF; -webkit-box-shadow:: 0 0 9px #FFFFFF;} 
+		50%{ background-color: #FFFF33; -webkit-box-shadow:: 0 0 18px #FFFF33; } 
+		 to { background-color: #FFFFFF; -webkit-box-shadow:: 0 0 9px #FFFFFF; } }
+		</style>
+		
+		<body bgcolor="#CCBBFF">
+			<header>
+				<img src="images/nav_bg2.png" alt="" width="1510px">
+				<a href="index.html"><img id="LOGO" src="logo2/logo.png" height="150px" width="150px"></a>
+				<div id="V111"><--回首頁</div>
+				<h1 id="TEX">CYCU</h1>
+				<h1 id="XET">LIFE'S GAME</h1>
+				<ul style="list-style-type: none;">
+				 <div id="sele"><li id="P"><a href="about_us.html" class="LIN">　　關於我們　　</a></li>
+					<a href="schools_life.html" class="LIN"><li id="L">　　學校生活　　</li></a>
+					<a href="club_introduce.html" class="LIN"><li id="M">　　社團介紹　　</li></a>
+					<a href="connect_us.html" class="LIN"><li id="N">　　聯絡我們　　</li></a>
+					<a href="https://wuyuan0408.github.io" class="LIN"><li id="T">　　舊版網頁　　</li></a>
+				</div>
+				</ul>
+				<img src="images/top.png" alt="" width="1510px">
+			</header>
+			
+			<section>
+				<h1 class="titl">中原大學，如玩遊戲般的體驗。</h1>
+				<p class="titl" style="font-size: 50px;">you can do anything you want to do,draw your dream.</p>
+				<div class="Te">
+					<h1>影片欣賞</h1>
+					<p>在連續上線了整整一年，每個人都有屬於自己的成就了， <br>
+					讓我們看看大家成長了多少吧!</p>
+				</div>
+				<img class="C" src="images/movie_bg4.png" height="500px" width="1510px">
+				
+			</section>
+			<article>
+				<iframe id="MO" width="560" height="315" src="https://www.youtube.com/embed/FM_drpe3Abc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</article>
+			<aside>
+				
+			</aside>
+			<footer>
+				<p style="color: white; text-align: center;">
+					&nbsp;<br>
+					     第5組 戴彥綸 徐正恩 徐世寰 吳學沅<br>
+					Copyright © 2019 CYCU IM All rights reserved
+				    &nbsp;<br></p>
+				    &nbsp;<br>
+			</footer>
+			
+		</body>
+	</html>

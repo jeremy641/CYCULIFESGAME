@@ -30,7 +30,7 @@
 			}
 			#sele {
 				position: absolute;
-				left: 900px;
+				left: 850px;
 				top: 130px;
 				font-family:"微軟正黑體";
 				font-weight: 1000;
@@ -45,17 +45,50 @@
 			.a1{
 				position: absolute;
 				left: 530px;
-				top: 350px;
+				top: 370px;
 			}
 			.a2{
 				position: absolute;
 				left: 530px;
-				top: 975px;
+				top: 1000px;
 			}
 			.a3{
 				position: absolute;
 				left: 530px;
-				top: 1600px;
+				top: 1620px;
+			}
+			#C11{
+				position: absolute;
+				left: 530px;
+				top: 420px;
+				font-family:"微軟正黑體";
+			}
+			#C12{
+				position: absolute;
+				left: 550px;
+				top: 490px;
+			}
+			#C13{
+				position: absolute;
+				left: 530px;
+				top: 1050px;
+				font-family:"微軟正黑體";
+			}
+			#C14{
+				position: absolute;
+				left: 550px;
+				top: 1130px;
+			}
+			#C15{
+				position: absolute;
+				left: 530px;
+				top: 1670px;
+				font-family:"微軟正黑體";
+			}
+			#C16{
+				position: absolute;
+				left: 550px;
+				top: 1750px;
 			}
 
 			.BC {
@@ -89,7 +122,7 @@
 			#sele{
 			
 		position: absolute;
-		left: 900px;
+		left: 850px;
 		top: 130px;
 		animation:TestMove 3s ; /*IE*/
 		-moz-animation:TestMove 3s ; /*FireFox*/
@@ -97,18 +130,18 @@
 		}
 		@keyframes TestMove{
 		from {left:0%;}
-		to {left:59.3%;}
+		to {left:55.5%;}
 		}
 		@-moz-keyframes TestMove{
 		from {left:0%;}
-		to {left:59.3%;}
+		to {left:55.5%;}
 		}
 		@-webkit-keyframes TestMove{
 		from {left:0%;}
-		to {left:59.3%;}
+		to {left:55.5%;}
 		}
 
-		 #P,#L,#M,#N{
+		  #P,#L,#M,#N,#T{
 		  -webkit-animation-name: greenPulse;
 		  -webkit-animation-duration: 2s;
 		  -webkit-animation-iteration-count: infinite;　　　　　　
@@ -122,16 +155,19 @@
 
 </head>
 <body  bgcolor="#CCBBFF">
-	<header bgcolor="#CCBBFF">
+	<header>
 				<img src="images/nav_bg2.png" alt="" width="1510px">
 				<a href="index.html"><img id="LOGO" src="logo2/logo.png" height="150px" width="150px"></a>
+				<div id="V111"><--回首頁</div>
 				<h1 id="TEX">CYCU</h1>
 				<h1 id="XET">LIFE'S GAME</h1>
 				<ul style="list-style-type: none;">
 				 <div id="sele"><li id="P"><a href="about_us.html" class="LIN">　　關於我們　　</a></li>
 					<a href="schools_life.html" class="LIN"><li id="L">　　學校生活　　</li></a>
-					<a href="schools_history.html" class="LIN"><li id="M">　　學校歷史　　</li></a>
-					<a href="club_introduce.html" class="LIN"><li id="N">　　社團介紹　　</li></a></div>
+					<a href="club_introduce.html" class="LIN"><li id="M">　　社團介紹　　</li></a>
+					<a href="connect_us.html" class="LIN"><li id="N">　　聯絡我們　　</li></a>
+					<a href="https://wuyuan0408.github.io" class="LIN"><li id="T">　　舊版網頁　　</li></a>
+				</div>
 				</ul>
 				<img src="images/top.png" alt="" width="1510px">
 			</header>
@@ -139,18 +175,25 @@
 				<img class="BC" src="images/C1.jpg" alt="" style="width:500px; height: 300px;"><br>
 				<img class="BC" src="images/C2.jpg" alt="" style="width:500px; height: 300px;">
 				<h1 class="a1">熱音社</h1>
+				<p id="C11">我們是中原熱音社，主要是以組樂團的方式表演歌曲，歡迎加入熱音社喔!</p>
+				<iframe  id="C12" width="650" height="450" src="https://www.youtube.com/embed/GJ8BQ5OFpak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</section>
 			<hr>
 			<section>
 				<img class="BC" src="images/C3.jpg" alt="" style="width:500px; height: 300px;"><br>
 				<img class="BC" src="images/C4.jpg" alt="" style="width:500px; height: 300px;">
 				<h1 class="a2">熱舞社</h1>
+				<p id="C13">我們是中原熱舞社，表演各式風格的舞蹈，歡迎加入熱舞社喔!</p>
+				<iframe  id="C14" width="650" height="450" src="https://www.youtube.com/embed/jwTa9jt-gLs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</section>
 			<hr>
 			<section>
 				<img class="BC" src="images/C5.jpg" alt="" style="width:500px; height: 300px;"><br>
 				<img class="BC" src="images/C6.jpg" alt="" style="width:500px; height: 300px;">
 				<h1 class="a3">軍研社</h1>
+				<p id="C15">我們是中原軍研社，研究各式武器及戰艦等等...，歡迎加入軍研社喔!</p>
+				<iframe  id="C16" width="650" height="450" src="https://www.youtube.com/embed/4dy-NlxqUVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 			</section>
 
 			<footer>
