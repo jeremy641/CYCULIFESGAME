@@ -67,6 +67,30 @@
 					color:#5500FF;
 					font-family:"微軟正黑體";
 				}
+				#GG{
+					position: absolute;
+					left: 430px;
+					top: 730px;
+					z-index:3;
+				}
+				#DD{
+                    position: absolute;
+					left: 1100px;
+					top: 1200px;
+					z-index:3;
+				}
+				#EE{
+					position: absolute;
+					left: 430px;
+					top: 1650px;
+					z-index:3;
+				}
+				#FF{
+					position: absolute;
+					left: 1050px;
+					top: 2100px;
+					z-index:3;
+				}
 				#A11{
                 opacity: 0.5;               
                 /* Firefox */
@@ -159,7 +183,7 @@
               #A14:hover {
               opacity: 1;
               }
-				.A1 {
+				.A1{
 		-webkit-animation-duration: 3s;
 		-moz-animation-duration: 3s;
 		-webkit-animation-name: slidein;
@@ -176,6 +200,32 @@
 		}
 		}
 		@-moz-keyframes slidein {
+		from {
+		padding-left: 100%;
+		width: 300%;
+		}
+		to {
+		padding-left: 0%;
+		width: 100%;
+		}
+		}
+		#GG,#EE{
+		-webkit-animation-duration: 3s;
+		-moz-animation-duration: 3s;
+		-webkit-animation-name: slidei;
+		-moz-animation-name: slidei;
+		}
+		@-webkit-keyframes slidei {
+		from {
+		padding-left: 100%;
+		width: 100%;
+		}
+		to {
+		padding-left: 0%;
+		width: 5%;
+		}
+		}
+		@-moz-keyframes slidei {
 		from {
 		padding-left: 100%;
 		width: 300%;
@@ -237,22 +287,35 @@
 				</div>
 				</ul>
 				<img src="images/top.png" alt="" width="1510px">
+            <a herf="https://www.facebook.com/profile.php?id=100002841323861"><img src="images/image.png" alt="" width="70px" id="GG"></a>
+			<a herf="https://www.facebook.com/profile.php?id=100011226121896"><img src="images/image.png" alt="" width="70px" id="DD"></a>
+			<a herf="https://www.facebook.com/profile.php?id=100002294668565"><img src="images/image.png" alt="" width="70px" id="EE"></a>
+			<a herf="https://www.facebook.com/ffoogera"><img src="images/image.png" alt="" width="70px" id="FF"></a>
 			</header>
-		<section>
-			<img src="images/1_a.png" alt="" width="1510px" class="A1">
+		<section>			
+			<img src="images/1_a.png" alt="" width="1510px" class="A1" usemap="#G1">
+			<map name="G1">
+				<area shape="circle" coords="347,301,236" herf="https://www.facebook.com/profile.php?id=100002841323861">
+			</map>
 			<div id="A11"><h1>戴彥綸</h1>
 			<p><span style="font-weight:bolder;">職業：</span>中原大學資管二甲<br>
                <span style="font-weight:bolder;">興趣：</span>彈電吉他，ACG<br>
                <span style="font-weight:bolder;">分配工作：</span>新版網頁coding，新版美術設計，概念片製作<br>
                <span style="font-weight:bolder;">心得：</span>這次課程真的學習到很多關於建構網路前端的知識，很累但是值得!</p></div>
-			<img src="images/2_a.png" alt="" width="1510px" class="A2">
+			<img src="images/2_a.png" alt="" width="1510px" class="A2" usemap="#G2">
+			<map name="G2">
+				<area shape="circle" coords="1715,305,284" herf="https://www.facebook.com/profile.php?id=100011226121896">
+			</map>
 			<div id="A12"><h1>徐世寰</h1>
 			<p><span style="font-weight:bolder;">職業：</span>中原大學資管二甲<br>
                <span style="font-weight:bolder;">興趣：</span>軍事相關，生存<br>
               <span style="font-weight:bolder;"> 分配工作：</span>口頭報告<br>
                <span style="font-weight:bolder;">心得：</span>透過這次的專題製作，我們小組盡可能運用比較創新的製作方法<br>，
                當然也碰到了許多的困難，不過我們盡可能的把問題解決，希望能夠做出最好的成果。<br></p></div>
-			<img src="images/3_a.png" alt="" width="1510px" class="A1">
+			<img src="images/3_a.png" alt="" width="1510px" class="A1" usemap="#G3">
+			<map name="G3">
+				<area shape="circle" coords="303,233,272" herf="https://www.facebook.com/profile.php?id=100002294668565">
+			</map>
 			<div id="A13"><h1>徐正恩</h1>
 			<p><span style="font-weight:bolder;">職業：</span>中原大學資管二甲<br>
                <span style="font-weight:bolder;">興趣：</span>跳舞<br>
@@ -261,7 +324,10 @@
                製作技巧 ，但是還不夠 ，我需要再去多學習許多有趣的方式，讓我們這組的網頁更加多元化<br>
                ，因此我這次期中專題的網頁，希望能夠運用許多課堂以外的小技巧，當然這只是期望，很多的東<br>
                西依然是要照課堂所教的去做，希望之後可以學到更多有趣的製作技巧。</p></div>
-			<img src="images/4_a.png" alt="" width="1510px" class="A2">
+			<img src="images/4_a.png" alt="" width="1510px" class="A2" usemap="#G4">
+			<map name="G4">
+				<area shape="circle" coords="1683,281,300" herf="https://www.facebook.com/ffoogera">
+			</map>
 			<div id="A14"><h1>吳學沅</h1>
 			<p><span style="font-weight:bolder;">職業：</span>中原大學資管二甲<br>
                <span style="font-weight:bolder;">興趣：</span>打傳說，英雄莉莉安曾為桃園市排行第26名<br>
@@ -277,6 +343,7 @@
 					Copyright © 2019 CYCU IM All rights reserved
 				   &nbsp;<br></p>
 				   &nbsp;<br>
+
 			</footer>
 			&nbsp;&nbsp;
 	</body>
